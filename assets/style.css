@@ -1,0 +1,91 @@
+/*yes*/
+body,html { 
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	font-family: Comfortaa;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background: linear-gradient(to right, #13ABE3 , #65cbf2);
+}
+li {
+	float: left;
+}
+li a {
+	color: white;
+	text-decoration: none;
+	padding: 16px 8px;
+	display: block;
+	text-align: center;
+}
+
+
+@font-face {
+    font-family: Comfortaa;
+    src: url(Comfortaa.ttf);
+}
+li a:hover {
+	animation-name: nav;
+	animation-duration: .5s;
+	background: #34bdef;
+}
+.active {
+	color: lightyellow;
+}
+.header {
+	font-size: 15vmin;
+	margin-top: 50px;
+}
+.sub-header {
+	margin-top: -50px;
+	font-size: 24px;
+	margin-bottom: 70px;
+}
+#main {
+	margin-top: 200px;
+}
+.button {
+	padding: 15px 5px;
+	background: #65cbf2;
+	border-radius: 3px;
+}
+.button {
+	padding: 15px 5px;
+	background: #46b6e2;
+	border-radius: 3px;
+	color: white;
+	text-decoration: none;
+}
+.button:hover {
+	background: #1dace5;
+	animation-duration: .5s;
+	animation-name: button;
+}
+#extension {
+	margin-top: 20px;
+	margin-right: 20px;
+	width: 400px;
+	height: 150px;
+	border: 2px solid lightgrey;
+	padding: 5px 5px;
+}
+#extension img {
+	width: 150px;
+	float: left;
+}
+#extension .button {
+	margin-top: 10px;
+	display: inline-flex;
+}
+@keyframes button {
+    from {background: #46b6e2;}
+    to {background: #1dace5;}
+}
+@keyframes nav {
+    from {background: #13ABE3;}
+    to {background: #34bdef;}
+}
