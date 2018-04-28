@@ -1,4 +1,3 @@
-/*yes*/
 body,html { 
 	margin: 0;
 	width: 100%;
@@ -76,9 +75,14 @@ li a:hover {
 #extension img {
 	width: 150px;
 	float: left;
+	margin-right: 20px;
+}
+#extension p {
+	margin-top: 0px;
 }
 #extension .button {
-	margin-top: 10px;
+	margin-top: -50px;
+	margin-left: 20%;
 	display: inline-flex;
 }
 @keyframes button {
